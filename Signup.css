@@ -67,40 +67,7 @@ input{
 
 
 
-.inputBorder{
-  margin: 0 auto;
-  top: 33px;
-  width: 466px;
-  height: 58px;
-  border: solid thin;
-  position: relative;
-  margin-bottom: 50px;
-  display: flex;
-  flex-direction: row-reverse;
-  align-content: center;
-}
 
-.champs{
-  position: absolute;
-  display: flex;
-  flex-direction: row;
-  left: 4%;
-  width: 20%;
-  justify-content: space-around;
-  height: auto;
-
-}
-
-.champs2{
-  position: absolute;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  left: 4%;
-  width: 27%;
-  height: auto;
-  margin-top: -1%;
-}
 
 .email{
   font-size: 1.2rem;
@@ -123,7 +90,6 @@ input{
 
 #eyesCloses{
   margin-right: 5%;
-  margin-top: 3.5%;
   width: 30px;
 	height: 30px;
 }

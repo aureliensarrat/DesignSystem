@@ -7,6 +7,14 @@ a{
   text-decoration: none;
 }
 
+
+
+
+
+
+
+
+
 #mainTitle{
   text-align: center;
   margin-bottom: 7%;
@@ -25,6 +33,15 @@ a{
   line-height: 49px;
 }
 
+
+
+
+
+
+
+
+
+
 .button{
   color: white;
   text-align: center;
@@ -40,10 +57,6 @@ a{
   border-radius: 2px;
 }
 
-
-
-.remAndForgot{
-}
 
 .rememberAndCheck{
   display: flex;
@@ -79,6 +92,13 @@ a{
 
 
 
+
+
+
+
+
+
+
 .register a{
   color: #0F056B;
 }
@@ -97,47 +117,11 @@ a{
 
 
 
-
-
-
-
-.inputBorder{
-  width: 466px;
-  height: 58px;
-  border: solid thin;
-  position: relative;
-  margin-bottom: 50px;
-  display: flex;
-  flex-direction: row-reverse;
-  align-content: center;
-}
-
-.champs{
-  position: absolute;
-  display: flex;
-  flex-direction: row;
-  left: 4%;
-  width: 20%;
-  justify-content: space-around;
-  height: auto;
-}
-
-.champs2{
-  position: absolute;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  left: 4%;
-  width: 27%;
-  height: auto;
-  margin-top: -1%;
-}
-
 .border{
   display: flex;
   align-items: center;
   height: 7vh;
-  width: 30%;
+  width: 45%;
   margin: 3vh;
   border: solid black 1px;
 }
@@ -149,16 +133,6 @@ input{
   border: none;
 }
 
-.email{
-  font-size: 1.2rem;
-  margin-top: 17%;
-}
-
-.password{
-  font-size: 1.2rem;
-  margin-top: 17%;
-
-}
 
 #nameIcon{
   width: 30px;
@@ -169,11 +143,9 @@ input{
 
 #eyesCloses{
   margin-right: 5%;
-  margin-top: 3.5%;
   width: 30px;
 	height: 30px;
 }
-
 
 
 #mailIcon{
@@ -196,6 +168,16 @@ input{
   margin-top: 15%;
   margin-left: 6%;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
