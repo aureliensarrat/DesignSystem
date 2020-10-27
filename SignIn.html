@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="Signin.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="titleContainer">
+        <h3 class="title">Sign in</h3>
+        <div class="line"></div>
+      </div>
+
+
+      <form class="signIn" action="Signin.html" method="post" onsubmit="return checkForm(form)">
+        <div class="border">
+          <img id="mailIcon" src="images/email.png" alt="mailIcon">
+          <input type="text" name="email" placeholder="Email">
+        </div>
+        <div class="border">
+          <img id="lockIcon" src="images/password.png" alt="lockIcon">
+          <input type="text" name="password" placeholder="Password">
+        </div>
+      </form>
+
+
+      <div class="remAndForgot">
+        <div class="rememberAndCheck">
+          <img id="checkIcon" src="images/check.png" alt="checkIcon">
+          <p class="remember">Remember me</p>
+        </div>
+        <a id="forgot" href="#"><p><u>Forgot password?</u></p></a>
+      </div>
+
+
+      <a href="#"><h3 class="button">Sign in</h3></a>
+
+
+
+      <br>
+      <p class="register">Don't have a account ? <a class="register" href="Signup.html"><u>Register here</u></a></p>
+
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

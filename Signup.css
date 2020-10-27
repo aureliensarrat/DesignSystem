@@ -1,0 +1,225 @@
+html{
+  font-family: 'Noto Sans', sans-serif;
+  overflow: hidden;
+}
+
+
+.container{
+  margin: 0 auto;
+  width: 700px;
+  height: 700px;
+  margin-top: 7%;
+}
+
+.border{
+  display: flex;
+  align-items: center;
+  height: 7vh;
+  margin: 3vh;
+  border: solid black 1px;
+}
+
+
+
+input{
+  font-size: 1.3em;
+  height: 4vh;
+  width: 70%;
+  border: none;
+}
+
+
+
+
+
+.titleContainer{
+  margin: 0 auto;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title{
+  text-align: center;
+  color: #0F056B;
+  font-size: 36px;
+  line-height: 49px;
+  margin-bottom: 5px;
+}
+
+.line{
+  margin: 0 auto;
+  width: 68px;
+  height: 0px;
+  border: 1px solid #0F056B;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.inputBorder{
+  margin: 0 auto;
+  top: 33px;
+  width: 466px;
+  height: 58px;
+  border: solid thin;
+  position: relative;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-content: center;
+}
+
+.champs{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  left: 4%;
+  width: 20%;
+  justify-content: space-around;
+  height: auto;
+
+}
+
+.champs2{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  left: 4%;
+  width: 27%;
+  height: auto;
+  margin-top: -1%;
+}
+
+.email{
+  font-size: 1.2rem;
+  margin-top: 17%;
+}
+
+.password{
+  font-size: 1.2rem;
+  margin-top: 17%;
+
+}
+
+
+#nameIcon{
+  width: 30px;
+	height: 30px;
+  margin-left: 6%;
+  margin-right: 4%;
+}
+
+#eyesCloses{
+  margin-right: 5%;
+  margin-top: 3.5%;
+  width: 30px;
+	height: 30px;
+}
+
+
+
+#mailIcon{
+  width: 30px;
+	height: 30px;
+  margin-left: 6%;
+  margin-right: 4%;
+}
+
+#lockIcon{
+  width: 35px;
+	height: 30px;
+  margin-left: 6%;
+  margin-right: 4%;
+}
+
+#checkIcon{
+  width: 30px;
+	height: 30px;
+  margin-top: 15%;
+  margin-left: 6%;
+}
+
+
+
+
+
+
+
+
+
+.passwordStrength{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  justify-content: space-around;
+  font-style: italic;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.blueBlocks{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 10%;
+}
+
+.blueBlocks div{
+  background-color: #0F056B;
+  width: 90px;
+  height: 9px;
+  margin: 4%;
+}
+
+
+
+
+
+
+
+
+
+
+.button{
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+
+  width: 183px;
+  height: 43px;
+  margin-top: 39px;
+
+  padding: 13px 0px 0px ;
+
+  background: #0F056B;
+  border-radius: 2px;
+}
+
+
+.linkSignIn a{
+  color: #0F056B;
+}
+
+.linkSignIn{
+  text-align: center;
+  font-style: italic;
+  text-decoration: none;
+}
+
+
+a{
+  text-decoration: none;
+}

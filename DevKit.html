@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dev Kit</title>
+    <link rel="stylesheet" href="devKit.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1 id="mainTitle">Dev Kit</h1>
+
+    <div class="ourTitles">
+      <h2 class="categories">1. Titles</h2>
+      <h3 class="title">Sign in</h3>
+      <h3 class="title">Sign up</h3>
+    </div>
+
+
+    <div class="ourButton">
+      <h2 class="categories">2. Buttons</h2>
+      <a href="#"><h3 class="button">Sign in</h3></a>
+
+    <div class="remAndForgot">
+      <div class="rememberAndCheck">
+        <img id="checkIcon" src="images/check.png" alt="checkIcon">
+        <p class="remember">Remember me</p>
+      </div>
+      <div class="rememberAndCheck">
+        <img id="checkIconEmpty" src="images/circle.png" alt="checkIconEmpty">
+        <p class="remember">Remember me</p>
+      </div>
+      <a id="forgot" href="#"><p><u>Forgot password?</u></p></a>
+    </div>
+
+
+
+    <p class="register">Don't have a account ? <a class="register" href="#"><u>Register here</u></a></p>
+
+    </div>
+
+
+
+    <div class="ourInput">
+      <h2 class="categories">3. Input</h2>
+      <form class="signIn" action="Signin.html" method="post" onsubmit="return checkForm(form)">
+        <div class="border">
+          <img id="nameIcon" src="images/name.png" alt="nameIcon">
+          <input type="text" name="name" placeholder="Name">
+        </div>
+        <div class="border">
+          <img id="mailIcon" src="images/email.png" alt="mailIcon">
+          <input type="text" name="email" placeholder="Email">
+        </div>
+        <div class="border">
+          <img id="lockIcon" src="images/password.png" alt="lockIcon">
+          <input type="text" name="password" placeholder="Password">
+        </div>
+      </form>
+
+    </div>
+
+
+    <div class="lineAndBlock">
+      <h2 class="categories">4. Lines and blocks</h2>
+      <div class="line"></div>
+
+      <div class="passwordStrength">
+        <p>Password stength</p>
+        <div class="blueBlocks">
+          <div>
+
+          </div>
+          <div>
+
+          </div>
+          <div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
